@@ -30,7 +30,7 @@ WHERE
 -- Выберите supplier_id и shipping_fee из purchase_orders там где created_by равно 1 и supplier_id равен 5.
 -- Объясните полученный результат.
 SELECT 
-    supplier_id, shipping_fee
+    id, supplier_id, shipping_fee
 FROM
     purchase_orders
 WHERE
